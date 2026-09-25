@@ -376,6 +376,9 @@ with tab_edu:
     with col_b:
         st.header("Key Achievements")
         st.write("- 🏆 **AIR-248** in All INDIA Contest")
+        st.write("""Developed educational content tailored for children in NGOs and college students, fostering increased
+    enthusiasm for learning. Completed coursework in Start-ups (Process of building a start-up), AI (AI tools),
+    Digital Marketing, Book reviews, Blogging, and different marketing strategies through relevant classes""")
         st.write("- 🥇 Recognition on **GeeksforGeeks** and multiple badges on **LeetCode**")
         st.write("- 📜 **Letter of Recommendation** for performance in Everest Team")
 
