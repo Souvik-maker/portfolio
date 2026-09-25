@@ -10,8 +10,6 @@ from reportlab.lib import colors
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 
-# Supabase Connection import
-from st_supabase_connection import SupabaseConnection
 
 # Page Configuration
 st.set_page_config(
@@ -256,7 +254,7 @@ with tab_proj:
         col_m3.metric(label="Matching Method", value="Vector Cosine", delta="Semantic Similarity")
         col_m4.metric(label="ATS Optimization", value="Automated", delta="Keyword Alignment")
         
-        st.markdown("[🔗 View Live Demo](#) | [💻 GitHub Repository](#)")
+        st.markdown("[🔗 View Live Demo](https://lnkd.in/gbWujVCs) | [💻 GitHub Repository](https://lnkd.in/g5uhjbcm)")
         
         st.markdown("---")
         
