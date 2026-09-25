@@ -388,7 +388,7 @@ st.header("📬 Get In Touch")
 # Initialize PostgreSQL Connection
 conn = None
 try:
-    conn = st.connection("postgresql", type="sql")
+    conn = st.connection("postgresql", type="sql",connect_args={"prepare_threshold": None})
 except Exception as e:
     st.error(f"⚠️ Secrets Error: {e}")
 
