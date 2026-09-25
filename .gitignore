@@ -1,0 +1,16 @@
+# Streamlit secrets (Contains private database passwords & API keys)
+.streamlit/secrets.toml
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[c]
+*.py[o]
+
+# OS generated files
+.DS_Store
+Thumbs.db
