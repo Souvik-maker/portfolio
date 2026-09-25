@@ -161,7 +161,7 @@ with tab_ai:
 
     # Interactive Sandbox
     st.subheader("🕹️ Interactive Architecture Visualizer: LangGraph Execution Simulation")
-    st.caption("Select an industry use case to visualize its underlying multi-agent execution pipeline.")
+    st.caption("Select an industry use case to visualize its underlying custom Multi-Agent Architectures Designed by me")
     
     workflow_type = st.selectbox(
         "Select Industry Workflow:",
@@ -388,7 +388,7 @@ st.header("📬 Get In Touch")
 # Initialize PostgreSQL Connection
 conn = None
 try:
-    conn = st.connection("postgresql", type="sql",connect_args={"prepare_threshold": None})
+    conn = st.connection("postgresql", type="sql")
 except Exception as e:
     st.error(f"⚠️ Secrets Error: {e}")
 
