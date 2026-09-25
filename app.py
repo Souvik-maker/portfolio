@@ -161,7 +161,7 @@ with tab_ai:
 
     # Interactive Sandbox
     st.subheader("🕹️ Interactive Architecture Visualizer: LangGraph Execution Simulation")
-    st.caption("Select an industry use case to visualize its underlying custom Multi-Agent Architectures Designed by me")
+    st.caption("Select an industry use case to visualize its underlying custom Multi-Agent Architectures, designed by me")
     
     workflow_type = st.selectbox(
         "Select Industry Workflow:",
