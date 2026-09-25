@@ -1,0 +1,5 @@
+streamlit
+plotly #used for interactive skill visualization
+reportlab
+sqlalchemy
+psycopg[binary]
